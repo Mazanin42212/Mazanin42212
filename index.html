@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FlightPool</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="media/jquery.bxslider.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div>
+			<img class="test-0-logo" src="https://papik.pro/grafic/uploads/posts/2023-04/1681604766_papik-pro-p-logotipi-aviakompanii-mira-vektor-42.png">
+		</div>
+		<div class="menu">
+			<a href="#acii"><button class="button test-0-nav-1">Акции</button></a>
+			<a href="#poisk"><button class="button test-0-nav-2">Поиск</button></a>
+			<a href="login.html"><button class="button test-0-nav-4">Личный кабинет</button></a>
+		</div>
+	</div>
+</header>
+<div class="main-container">
+	<h2>Принципы накопления бронирований</h2>
+	<div class="info">
+		<div class="section">
+			<b>Раннее планирование</b>
+		</div>
+		<div class="section">
+			<b>Гибкость в выборе даты и времени</b>
+		</div>
+		<div class="section">
+			<b>Использование программ лояльности</b>
+		</div>
+	</div>
+	<hr class="separate">
+	<h1>Мы не просто перевозим людей, мы воплощаем мечты!</h1>
+	<hr class="separate">
+	<h2>Наши самолеты и команда</h2>
+	<div class="slider">
+		<ul class="bxslider">
+			<li>
+				<img class="slider-image" src="https://img.razrisyika.ru/kart/37/1200/146357-samolet-kartinka-8.jpg">
+			</li>
+			<li>
+				<img class="slider-image" src="https://www.fundacionamigosderusia.com/ftp/Aeroflot_Airlines__2_..jpg">
+			</li>
+			<li>
+				<img class="slider-image" src="https://gas-kvas.com/grafic/uploads/posts/2023-09/1695801354_gas-kvas-com-p-kartinki-samolet-21.jpg">
+			</li>
+			<li>
+				<img class="slider-image" src="https://fikiwiki.com/uploads/posts/2022-02/1644939596_30-fikiwiki-com-p-samoleti-krasivie-kartinki-36.jpg">
+			</li>
+			<li>
+				<img class="slider-image" src="https://klike.net/uploads/posts/2023-02/1675757498_3-13.jpg">
+			</li>
+		</ul>
+	</div>
+	<section class="form-search" id="search">
+		<h2 id="poisk">Поиск билетов</h2>
+		<form action="search.html" class="main-search">
+			<div class="test-0-fd">
+				<p class="search-text">Город вылета</p>
+				<select id="selectItem" class="city-button">
+					<option id="moscow">Москва</option>
+					<option id="piter">Санкт-Петербург</option>
+					<option id="dom">Внуково</option>
+				</select>
+			</div>
+				<div class="test-0-fa">
+					<p class="search-text">Город прилета</p>
+					<select id="selectItem" class="city-button">
+						<option id="vladivostok">Астрахань</option>
+						<option id="kemerovo">Владимир</option>
+						<option id="almat">Анапа</option>
+					</select>
+				</div>
+				<div class="test-0-fdt">
+					<p class="search-text">Туда</p>
+					<input type="date" class="search-button" name="name" required>
+				</div>
+				<div class="test-0-fat">
+					<p class="search-text">Обратно</p>
+					<input type="date" class="search-button" name="name" required>
+				</div>
+				<div class="test-0-fnp">
+					<p class="search-text">Количество пассажиров</p>
+					<input type="number" min="1" max="8" class="passengers-button" required>
+				</div>
+				<div class="test-0-fbs">
+					<button class="search">Найти</button>
+				</div>
+			</div>
+		</form>
+	</section>
+	<h2 id="acii">Акции</h2>
+	<div class="promotions">
+		<div class="promotion">
+			<img src="https://you-journal.ru/wp-content/uploads/2022/06/13234.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Возврат и изменение ваших билетов</h3>
+			<div class="test-0-ad">Новый вирус изменил планы многих путешественников, но мы знаем, что сразу, как все это закончится, мы продолжим исследовать этот мир так, как раньше. Специальные правила, разработанные для этой непростой ситуации, помогут вам отменить поездку или отложить ее на потом.</div>
+			<button class="test-0-abm">Подробнее</button>
+		</div>
+		<div class="promotion">
+			<img src="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-oboi-goroda-astrakhan-14.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Лучшие предложения</h3>
+			<div class="test-0-ad">Чтобы снова увидеть улицы, которые были свидетелями так много. Обнять своих любимых и оглянуться назад, чтобы увидеть, через что вы прошли. И думать о новых мечтах, которые будут такими особенными!</div>
+			<button class="test-0-abm">Подробнее</button>
+		</div>
+		<div class="promotion">
+			<img src="https://cdn.culture.ru/images/a26806a1-a506-5482-9c2c-6807f994b0a5" class="test-0-ai">
+			<h3 class="test-0-an">Увидимся чаще</h3>
+			<div class="test-0-ad">С начала апреля мы расширяем географию полетов по России, чтобы вы могли чаще видеть своих близких. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</div>
+			<button class="test-0-abm">Подробнее</button>
+		</div>
+		<div class="promotion">
+			<img src="https://webredox.net/demo/wp/travol/wp-content/uploads/2022/08/39-1.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Все снова включено</h3>
+			<div class="test-0-ad">С 19 июля мы возобновим полеты в Анапу. Рейсы из Москвы в Анапу будут выполняться три раза в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от четерех до семи раз в неделю.</div>
+			<button class="test-0-abm">Подробнее</button>
+		</div>
+		<form class="premium">
+			<h2>Подписка на акции</h2>
+			<div class="prem-text">
+				Скидки на авиабилеты и предложения придут на вашу почту
+			</div>
+			<div class="prem-bottom">
+				<div class="mail-field">
+					<input type="email" required placeholder="Email*" class="test-0-sie">
+				</div>
+				<input class="test-0-sbs" type="submit" value="Оформить"></input>
+			</div>
+		</form>
+	</div>
+	<br>
+	<hr class="separate">
+	<h2 id="11">Отзывы</h2>
+	<div class="reviews">
+		<div class="feedback">
+			<img src="https://img.freepik.com/premium-psd/3d-review-rating-stars-for-best-excellent-services-rating-five-stars_574957-1773.jpg?w=900" class="user-image">
+			<div class="reviewer-name">
+				Иван Иванович
+			</div>
+			<div class="rating">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+			</div>
+			<div class="feedback-text">
+				Отличные впечатления от полёта с авиакомпанией! Обслуживание на высшем уровне, приветливый персонал, комфортные сиденья. Рекомендую!
+			</div>
+		</div>
+		<div class="feedback">
+			<img src="https://img.freepik.com/premium-psd/3d-review-rating-stars-for-best-excellent-services-rating-five-stars_574957-1773.jpg?w=900" class="user-image">
+			<div class="reviewer-name">
+				Марина Ивановна
+			</div>
+			<div class="rating">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+			</div>
+			<div class="feedback-text">
+				Летели с семьёй на отдых, авиакомпания превзошла все наши ожидания. Замечательные сотрудники, вкусная еда, чистый салон. Спасибо за прекрасный полёт!
+			</div>
+		</div>
+		<div class="feedback">
+			<img src="https://img.freepik.com/premium-psd/3d-review-rating-stars-for-best-excellent-services-rating-five-stars_574957-1773.jpg?w=900" class="user-image">
+			<div class="reviewer-name">
+				Мария Олеговна
+			</div>
+			<div class="rating">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+			</div> 
+			<div class="feedback-text">
+				Я часто летаю по работе, и эта авиакомпания — одна из лучших, с которыми мне доводилось иметь дело. Впечатления от полёта самые приятные. Рекомендую!
+			</div>
+		</div>
+		<div class="feedback">
+			<img src="https://img.freepik.com/premium-psd/3d-review-rating-stars-for-best-excellent-services-rating-five-stars_574957-1773.jpg?w=900" class="user-image">
+			<div class="reviewer-name">
+				Олег Олегович
+			</div>
+			<div class="rating">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+			</div>
+			<div class="feedback-text">
+				Прекрасная авиакомпания! Персонал очень внимательный, питание отличное, полёт прошёл спокойно. Благодарю за комфорт!
+			</div>
+		</div>
+		<div class="feedback">
+			<img src="https://img.freepik.com/premium-psd/3d-review-rating-stars-for-best-excellent-services-rating-five-stars_574957-1773.jpg?w=900" class="user-image">
+			<div class="reviewer-name">
+				Виктор Викторович
+			</div>
+			<div class="rating">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+			</div>
+			<div class="feedback-text">
+				Восхищён работой этой авиакомпании. Всегда пунктуальны, вежливы, заботливы. Полёт прошёл замечательно, спасибо!
+			</div>
+		</div>
+		<div class="feedback">
+			<img src="https://img.freepik.com/premium-psd/3d-review-rating-stars-for-best-excellent-services-rating-five-stars_574957-1773.jpg?w=900" class="user-image">
+			<div class="reviewer-name">
+				Николай Евгеньевич
+			</div>
+			<div class="rating">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+				<img src="media/images/star.png" class="star">
+			</div>
+			<div class="feedback-text">
+				Авиакомпания выше всяких похвал! Сотрудники дружелюбные, места в самолёте удобные, полёт прошёл гладко. Буду рекомендовать всем знакомым!
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<div class="footer-container">
+		<div class="footer-block">
+			<a href="index.html">
+				<img src="https://papik.pro/grafic/uploads/posts/2023-04/1681604766_papik-pro-p-logotipi-aviakompanii-mira-vektor-42.png" alt="logo" class="test-0-logo">
+			</a>
+			<nav class="footer-nav">
+				<a href="#" class="footer-link">FAQ</a>
+				<a href="#" class="footer-link">Пользователи</a>
+				<a href="#11" class="footer-link">Отзывы</a>
+				<a href="#" class="footer-link">Контакты</a>
+			</nav>
+			<div class="test-0-phone ">
+				8 (800) 555-35-35
+			</div>
+		</div>
+	</div>
+</footer>
+<script>
+	jQuery(document).ready(function(){
+		jQuery('.bxslider').bxSlider({
+			autoStart: true,
+			auto: true,
+			pause: 4000,
+			autoDirection: 'next',
+			autoHover: true
+		});
+	});
+</script>
+</body>
+</html>
